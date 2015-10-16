@@ -1,0 +1,9 @@
+<?php
+
+
+    namespace CirclicalModuleLoader;
+
+
+    return [
+
+	];

@@ -1,0 +1,36 @@
+{
+    "name":         "saeven/zf2-dynamic-modules",
+    "description":  "Dynamic module loader for ZF2",
+    "type":         "library",
+    "license":      "MIT",
+    "homepage":     "https://github.com/Saeven/zf2-dynamic-modules",
+    "keywords": [
+        "zf2",
+        "generate",
+        "form",
+        "forms",
+        "zend framework"
+    ],
+    "authors": [
+        {
+            "name":      "Alexandre Lemaire",
+            "email":     "alemaire@circlical.com",
+            "homepage":  "http://circlical.com/",
+            "role":      "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "CirclicalModuleLoader\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.1-dev"
+        }
+    }
+}
