@@ -4,6 +4,12 @@ I needed a means to dynamically wire modules into ZF2.  This overrides the Modul
 
 Configuration is very simple, and is done in your **application.config.php**, not in your module config!
 
+## Installation
+
+```
+composer require saeven/zf2-dynamic-modules
+```
+
 
 ## application.config.php
 
